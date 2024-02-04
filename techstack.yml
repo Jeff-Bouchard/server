@@ -1,0 +1,226 @@
+repo_name: Jeff-Bouchard/server
+report_id: 5be6893c28cf7ef105f301f1bae0afce
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-04T14:49:38+00:00'
+requested_by: ppeeou
+provider: github
+branch: master
+detected_tools_count: 16
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Jeff-Bouchard/server
+  detection_source: Repo Metadata
+- name: Koa
+  description: Next generation web framework for node.js
+  website_url: http://koajs.com/
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1726/5055057.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Roman Shtylman
+  last_updated_on: 2012-06-18 02:46:05.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 10.1.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Roman Shtylman
+  last_updated_on: 2017-12-10 17:36:53.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Roman Shtylman
+  last_updated_on: 2012-06-18 02:46:05.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Roman Shtylman
+  last_updated_on: 2018-05-15 18:49:19.000000000 Z
+- name: SuperTest
+  description: 'A library for testing node.js HTTP servers '
+  website_url: https://www.npmjs.com/package/supertest
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Roman Shtylman
+  last_updated_on: 2018-05-15 18:49:19.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Roman Shtylman
+  last_updated_on: 2012-11-03 19:13:36.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/Jeff-Bouchard/server/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Roman Shtylman
+  last_updated_on: 2017-12-10 17:27:57.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Roman Shtylman
+  last_updated_on: 2012-06-18 02:46:05.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Roman Shtylman
+  last_updated_on: 2017-12-10 18:24:24.000000000 Z
+- name: esm
+  description: Tomorrow's ECMAScript modules today!
+  package_url: https://www.npmjs.com/esm
+  version: 3.0.34
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16371/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Roman Shtylman
+  last_updated_on: 2012-06-18 02:46:05.000000000 Z
+  vulnerabilities:
+  - name: Regular Expression Denial of Service
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-qx4v-6gc5-f2vv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.1.0
+- name: koa-router
+  description: Router middleware for koa
+  package_url: https://www.npmjs.com/koa-router
+  version: 7.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16329/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Roman Shtylman
+  last_updated_on: 2018-05-16 20:41:05.000000000 Z
+- name: optimist
+  description: Light-weight option parsing with an argv hash
+  package_url: https://www.npmjs.com/optimist
+  version: 0.6.1
+  license: MIT,X11
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16145/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Roman Shtylman
+  last_updated_on: 2015-01-11 04:58:00.000000000 Z
+- name: pump
+  description: Pipe streams together and close all of them if one of them closes
+  package_url: https://www.npmjs.com/pump
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16623/default_cc0f40a737548852d2ee666c132c258c9a2c0cad.png
+  detection_source_url: https://github.com/Jeff-Bouchard/server/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Roman Shtylman
+  last_updated_on: 2018-05-16 14:21:56.000000000 Z
