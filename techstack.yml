@@ -2,7 +2,7 @@ repo_name: Jeff-Bouchard/server
 report_id: 5be6893c28cf7ef105f301f1bae0afce
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-04T14:49:38+00:00'
+timestamp: '2024-02-29T19:53:16+00:00'
 requested_by: ppeeou
 provider: github
 branch: master
@@ -97,7 +97,7 @@ tools:
   last_updated_by: Roman Shtylman
   last_updated_on: 2018-05-15 18:49:19.000000000 Z
 - name: SuperTest
-  description: 'A library for testing node.js HTTP servers '
+  description: A library for testing node.js HTTP servers
   website_url: https://www.npmjs.com/package/supertest
   version: 3.1.0
   license: MIT
